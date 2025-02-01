@@ -48,7 +48,11 @@ Copy
 Edit
 cd academic-video-summarizer
 ### Run
-Open Google Chrome and go to chrome://extensions/.
+Open Google Chrome and go to
+chrome://extensions/.
+
 Enable Developer Mode (top-right corner).
+
 Click "Load Unpacked" and select the extension folder.
+
 The extension should now appear in your Chrome toolbar.
