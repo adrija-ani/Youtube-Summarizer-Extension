@@ -1,0 +1,32 @@
+{
+  "manifest_version": 3,
+  "name": "YouTube Summary Assistant",
+  "version": "1.0",
+  "description": "Analyzes YouTube video segments using MeaningCloud Sentiment Analysis",
+  "permissions": [
+    "storage",
+    "activeTab",
+    "scripting",
+    "tabs"
+  ],
+  "host_permissions": [
+    "https://www.youtube.com/*",
+    "https://api.meaningcloud.com/*"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/icon16.jpg",
+      "48": "icons/icon48.jpg",
+      "128": "icons/icon128.jpg"
+    }
+  },
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  "content_scripts": [{
+    "matches": ["https://www.youtube.com/*"],
+    "js": ["content.js"]
+  }]
+}
