@@ -35,3 +35,20 @@ Click "Load Unpacked" and select the extension folder.
 The extension should now appear in your Chrome toolbar.
 ### 🎥 Project Demo
 Video link: https://drive.google.com/file/d/1NVcn6KAKkr3gXUdV2qpomsDMOH0rFsFC/view?usp=drive_link
+
+
+
+#### *Installation*
+1. *Clone the repository* or *Download the ZIP folder*  
+   ```sh
+   git clone https://github.com/yourrepo/academic-video-summarizer.git
+Navigate to the extension folder
+sh
+Copy
+Edit
+cd academic-video-summarizer
+### Run
+Open Google Chrome and go to chrome://extensions/.
+Enable Developer Mode (top-right corner).
+Click "Load Unpacked" and select the extension folder.
+The extension should now appear in your Chrome toolbar.
